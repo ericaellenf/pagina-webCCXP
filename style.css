@@ -1,0 +1,133 @@
+body{
+    background-image: url('/midias/background.svg') ;
+    background-size: 2000px;
+    background-position: 50%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 0%;
+    
+}
+#header{
+    
+    background-color: #B20710;
+    padding: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    color: #000000;
+}
+a:hover{
+    color: aliceblue;
+}
+li{
+    display: inline-block;
+    margin: 30px;
+    font-size: 25px;
+    
+}
+#branco{
+    background-color: #fdfdfd;
+    padding: 15px;
+    color: #0f0f0f;
+}
+
+main{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+
+}
+article{
+    padding: 20px;
+}
+#text{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    font-size: 32px;
+}
+h1{
+    color: #B20710
+}
+p{
+    font-weight: small;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif
+}
+.timer{
+    margin:  20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+section{
+ 
+    padding-left: 22%;
+    padding-top: 09px;
+    padding-bottom: 40px;
+    background-color:#000000
+    
+}
+#video{
+    border: solid #000000;
+    border-radius: 20px;
+}
+
+h3{
+    background-color: #0f0f0f;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: #B20710;
+    font-size: 30px;
+    padding: 8px;
+    
+
+}
+input{
+    margin-left: 22%;
+    margin-top: 40px;
+    cursor: pointer;
+    background-color: #B20710;
+    color:#fdfdfd;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: #000000;
+}
+input:hover{
+    box-shadow: #000000;
+    transform: translateY(-8px);
+    box-shadow: 0px 4px 6px; color: #000000a0;
+    transition-duration: 0.2s;
+}
+#imagens{
+    size-adjust: 40px;
+    width: 32%;
+    transition: transform 0.5s ease-in-out;
+    display: flex;
+    flex-direction: row;
+}
+#imagens:hover{
+    transform: scale(1.5);
+   
+}
+#license{
+    
+    padding-bottom: 30px;
+    margin-left: 9%;
+
+    
+    
+                
+}
+h2{
+    color: #B20710;
+}
